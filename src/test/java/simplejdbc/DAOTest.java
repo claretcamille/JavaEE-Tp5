@@ -77,11 +77,11 @@ public class DAOTest {
 	 * Test of deleteCustomer method, of class DAO.
 	 * @throws simplejdbc.DAOException
 	 */
-	@Test @Ignore // Ce test est désactivé, pourquoi ?
+	@Test  @Ignore// Ce test est désactivé, pourquoi ?
 	public void testDeleteCustomerWithoutOrder () throws DAOException {
 		int id = 25; // Le client 25 n'a pas de bon de commande
 		assertEquals(1, myDAO.deleteCustomer(id));
-	}
+	} // Ce test n'est pas utile même si il fonctionne car deleteCosomer est déjà testé avant donc on refait un test sachant que celui la est déjà fait == Redondance
 
 	/**
 	 * Test of deleteCustomer method, of class DAO.
