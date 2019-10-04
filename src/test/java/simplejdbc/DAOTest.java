@@ -26,7 +26,7 @@ public class DAOTest {
 	@Test
 	public void testNumberOfCustomers() throws DAOException {
 		int result = myDAO.numberOfCustomers();
-		assertEquals(13, result);
+		assertEquals(12, result);
 	}
 
 	/**

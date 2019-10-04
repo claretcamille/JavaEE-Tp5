@@ -40,8 +40,8 @@ public class DAO {
 		) {
                                                                          
 			rs.next(); // Pas la peine de faire while, il y a 1 seul enregistrement
-                                                                        // On récupère le champ NUMBER de l'enregistrement courant
-                                                                        result = rs.getInt("NUMBER");
+                                                                  // On récupère le champ NUMBER de l'enregistrement courant
+                                                                  result = rs.getInt("NUMBER");
                                                                         
 
 		} catch (SQLException ex) {
